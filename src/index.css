@@ -1,0 +1,11 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Add any custom dark mode styles */
+body {
+  @apply bg-white dark:bg-gray-900;
+  @apply text-black dark:text-white;
+  transition: background-color 0.5s, color 0.5s;
+}
