@@ -1,5 +1,4 @@
-// src/components/Navbar.jsx
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { SunIcon, MoonIcon } from "@heroicons/react/24/solid";
 
 const Navbar = ({ user, onLogout }) => {

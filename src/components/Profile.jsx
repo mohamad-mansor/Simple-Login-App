@@ -1,6 +1,3 @@
-// src/components/Profile.jsx
-import React from "react";
-
 const Profile = ({ user }) => {
   return (
     <div className="p-4">
